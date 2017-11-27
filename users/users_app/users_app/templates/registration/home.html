@@ -1,0 +1,9 @@
+{% if message %}
+    {{ message }}
+{% elif message1 %} 
+    {{ message1 }}
+{% else %}
+    {{ "Hello" }}   
+{% endif %} 
+<a href="{% url 'login' %}">Login</a>
+<a href="{% url 'signup' %}">Signup</a>
